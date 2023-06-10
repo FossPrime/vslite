@@ -5,6 +5,7 @@ import './index.css';
 
 import {createRoot} from 'react-dom/client';
 import {Dock} from './components/Dock';
+import type { ReactNode } from 'react';
 
 const el = document.getElementById('root');
-el && createRoot(el).render(<Dock/>);
+el && createRoot(el).render(<Dock/> as ReactNode);
