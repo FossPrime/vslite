@@ -40,7 +40,16 @@
     {
       "action": "/",
       "accept": {
-        "application/json": [".json"]
+        "application/json": [".json"],
+	"text/csv": [".csv"],
+	"application/yaml": [".yaml", ".yml"]
+      }
+    },
+    {
+      "action": "/🏠",
+      "accept": {
+        "inode/directory": [""],
+	"application/x-directory": [""]
       }
     }
   ],
