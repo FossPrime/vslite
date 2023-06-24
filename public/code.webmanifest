@@ -1,5 +1,5 @@
 {
-  "name": "VSLite 1932",
+  "name": "VSLite 1939",
   "short_name": "Code",
   "description": "More than Monaco, less than VSCode",
   "start_url": "/?source=pwa",
@@ -13,44 +13,44 @@
   "categories": ["productivity", "utilities", "education"],
   "scope": "/",
   "icons": [
-		{
-			"src": "/code-192.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "/code-192-maskable.png",
-			"type": "image/png",
-			"sizes": "192x192",
-			"purpose": "maskable"
-		},
-		{
-			"src": "/code-512.png",
-			"type": "image/png",
-			"sizes": "512x512"
-		},
-		{
-			"src": "/code-512-maskable.png",
-			"type": "image/png",
-			"sizes": "512x512",
-			"purpose": "maskable"
-		}
+    {
+      "src": "/code-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/code-192-maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/code-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/code-512-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
   ],
   "file_handlers": [
     {
       "action": "/🍍",
       "accept": {
-        "application/json": [".json"],
-        "text/csv": [".csv"],
+        "application/json": [],
+        "text/csv": [""],
         "application/yaml": [".yaml", ".yml"]
       }
     },
     {
       "action": "/🏠",
       "accept": {
-        "inode/directory": [""],
-        "application/x-directory": [""],
-        "text/*": [""]
+        "inode/directory": [],
+        "application/x-directory": [],
+        "text/*": []
       }
     }
   ],
