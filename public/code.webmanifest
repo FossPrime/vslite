@@ -1,5 +1,5 @@
 {
-  "name": "VSLite 1901",
+  "name": "VSLite 1932",
   "short_name": "Code",
   "description": "More than Monaco, less than VSCode",
   "start_url": "/?source=pwa",
@@ -46,10 +46,11 @@
       }
     },
     {
-      "action": "/",
+      "action": "/🏠",
       "accept": {
         "inode/directory": [""],
-        "application/x-directory": [""]
+        "application/x-directory": [""],
+        "text/*": [""]
       }
     }
   ],
