@@ -38,18 +38,18 @@
   ],
   "file_handlers": [
     {
-      "action": "/",
+      "action": "/🍍",
       "accept": {
         "application/json": [".json"],
-	"text/csv": [".csv"],
-	"application/yaml": [".yaml", ".yml"]
+        "text/csv": [".csv"],
+        "application/yaml": [".yaml", ".yml"]
       }
     },
     {
-      "action": "/🏠",
+      "action": "/",
       "accept": {
         "inode/directory": [""],
-	"application/x-directory": [""]
+        "application/x-directory": [""]
       }
     }
   ],
