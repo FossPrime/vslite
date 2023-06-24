@@ -40,17 +40,17 @@
     {
       "action": "/🍍",
       "accept": {
-        "application/json": [],
-        "text/csv": [""],
+        "application/json": [".json"],
+        "text/csv": [".csv"],
         "application/yaml": [".yaml", ".yml"]
       }
     },
     {
       "action": "/🏠",
       "accept": {
-        "inode/directory": [],
-        "application/x-directory": [],
-        "text/*": []
+        "inode/directory": ["./"],
+        "application/x-directory": ["./"],
+        "text/*": ["./"]
       }
     }
   ],
